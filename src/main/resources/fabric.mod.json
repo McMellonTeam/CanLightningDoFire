@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "pistonpushmod",
+	"id": "canlightningdofire",
 	"version": "${version}",
-	"name": "PistonPushMod",
+	"name": "CanLightningDoFire",
 	"description": "This is a mod to allow players to change the imposed piston push limit in minecraft via a gamerule",
 	"authors": [
 		"RodoFire"
@@ -12,21 +12,21 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/pistonpushmod/icon.png",
+	"icon": "assets/canlightningdofire/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.louis.pistonpushmod.PistonPushMod"
+			"net.louis.canlightningdofire.CanLightningDoFire"
 		],
 		"client": [
-			"net.louis.pistonpushmod.PistonPushModClient"
+			"net.louis.canlightningdofire.CanLightningDoFireClient"
 		],
 		"fabric-datagen": [
-			"net.louis.pistonpushmod.PistonPushModDataGenerator"
+			"net.louis.canlightningdofire.CanLightningDoFireDataGenerator"
 		]
 	},
 	"mixins": [
-		"pistonpushmod.mixins.json"
+		"canlightningdofire.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",

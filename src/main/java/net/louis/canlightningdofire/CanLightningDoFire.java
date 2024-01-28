@@ -1,4 +1,4 @@
-package net.louis.pistonpushmod;
+package net.louis.canlightningdofire;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -8,16 +8,15 @@ import net.minecraft.world.GameRules;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class PistonPushMod implements ModInitializer {
-	public static final String MOD_ID = "pistonpushmod";
+public class CanLightningDoFire implements ModInitializer {
+	public static final String MOD_ID = "canlightingdofire";
 
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-	public static final GameRules.Key<GameRules.IntRule> PISTON_PUSHING_LIMIT =  GameRuleRegistry.register("PistonPushingLimit", GameRules.Category.MISC, GameRuleFactory.createIntRule(12,0,512));
-
+	public static final GameRules.Key<GameRules.BooleanRule> LIGHTNING_DO_FIRE =  GameRuleRegistry.register("lightningdofire", GameRules.Category.MISC, GameRuleFactory.createBooleanRule(true));
 
 	@Override
 	public void onInitialize() {
-
+		System.out.println();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
