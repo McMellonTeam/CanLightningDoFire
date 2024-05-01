@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "canlightningdofire",
-	"version": "${version}",
+	"version": "1.0.2",
 	"name": "CanLightningDoFire",
 	"description": "This is a mod to allow players to change the imposed piston push limit in minecraft via a gamerule",
 	"authors": [
@@ -17,21 +17,15 @@
 	"entrypoints": {
 		"main": [
 			"net.louis.canlightningdofire.CanLightningDoFire"
-		],
-		"client": [
-			"net.louis.canlightningdofire.CanLightningDoFireClient"
-		],
-		"fabric-datagen": [
-			"net.louis.canlightningdofire.CanLightningDoFireDataGenerator"
 		]
 	},
 	"mixins": [
 		"canlightningdofire.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.14.21",
+		"fabricloader": ">=0.15.6",
 		"minecraft": ">=1.20",
-		"java": ">=17",
+		"java": ">=21",
 		"fabric-api": "*"
 	},
 	"suggests": {
