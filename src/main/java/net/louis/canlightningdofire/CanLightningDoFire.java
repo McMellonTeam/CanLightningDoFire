@@ -17,6 +17,6 @@ public class CanLightningDoFire implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		System.out.println();
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("starting canlightningdofire");
 	}
 }
