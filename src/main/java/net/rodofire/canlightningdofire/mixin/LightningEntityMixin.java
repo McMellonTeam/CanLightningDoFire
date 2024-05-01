@@ -1,8 +1,6 @@
-package net.louis.canlightningdofire.mixin;
+package net.rodofire.canlightningdofire.mixin;
 
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
-import net.louis.canlightningdofire.CanLightningDoFire;
+import net.rodofire.canlightningdofire.CanLightningDoFire;
 import net.minecraft.block.AbstractFireBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
@@ -16,8 +14,6 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.Unique;
-
-import java.util.Random;
 
 @Mixin(LightningEntity.class)
 public abstract class LightningEntityMixin extends Entity {

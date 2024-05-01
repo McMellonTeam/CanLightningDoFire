@@ -1,4 +1,4 @@
-package net.louis.canlightningdofire;
+package net.rodofire.canlightningdofire;
 
 import net.fabricmc.api.ModInitializer;
 
