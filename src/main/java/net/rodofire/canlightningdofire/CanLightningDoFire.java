@@ -16,6 +16,6 @@ public class CanLightningDoFire implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("starting canlightningdofire!");
+		LOGGER.info("Starting canlightningdofire!");
 	}
 }
